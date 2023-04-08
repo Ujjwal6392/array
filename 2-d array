@@ -1,0 +1,154 @@
+#include <iostream>
+#include<limits.h>
+using namespace std;
+//******row sum program**************
+// void printrowsum(int arr[][3],int rows,int cols)
+// {
+//     for(int i=0;i<rows;i++)
+//     {
+//         int sum=0;
+//         for(int j=0;j<cols;j++)
+//         {
+//             sum+=arr[i][j];
+//         }
+//         cout<<"sum of rows are : ";
+//         cout<<sum<<" ";
+//         cout<<endl;
+//     }
+
+    
+// }
+// int main() {
+//     int arr[3][3];
+//     int rows=3;
+//     int cols=3;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             cin>>arr[i][j];
+//         }
+//     }
+//     printrowsum(arr,rows,cols);
+//     return 0;
+// }
+//*************column sum program************************
+// void printcolsum(int arr[][3],int rows, int cols)
+// {
+//     for(int i=0;i<rows;i++)
+//     {
+//         int sum=0;
+//         for(int j=0;j<cols;j++)
+//         {
+//             sum+=arr[j][i];
+//         }
+//         cout<<"sum of cols are : ";
+//         cout<<sum<<" ";
+//         cout<<endl;
+//     }
+// }
+    
+
+// int main() {
+//     int arr[3][3];
+//     int rows=3;
+//     int cols=3;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             cin>>arr[i][j];
+//         }
+//     }
+//     printcolsum(arr,rows,cols);
+    // return 0;
+// bool  print(int arr[][3],int rows,int cols,int key)
+// {
+//     for(int i=0;i<rows;i++)
+//     {
+        
+//         for(int j=0;j<cols;j++)
+//         {
+//             if(key==arr[i][j])
+//             {
+//               return true;
+//             }
+//         }
+//     }
+//     return false;
+// }
+// int main() 
+// {
+//     int arr[3][3];
+//     int rows=3;
+//     int cols=3;
+//     int key;
+//     cout<<"enter the key you wanted to find "<<endl;
+//     cin>>key;
+//     cout<<"Enter the elements of array "<<endl;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             cin>>arr[i][j];
+//         }
+//     }
+//     if(print(arr,rows,cols,key))
+//     {
+//         cout<<"true"<<endl;
+//     }
+//     else{
+//         cout<<"false"<<endl;
+//     }
+//     return 0;
+// }
+//****************maximum and minimum number in a array******************
+// int printmax(int arr[][3],int rows,int cols)
+// {
+//     int maxi=INT_MIN;
+//     int minimum;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             if(arr[i][j]>maxi)
+//             {
+//               maxi=arr[i][j];
+//             }
+//         }
+//     }
+//     return maxi;
+// }
+// int printmin(int arr[][3],int rows,int cols)
+// {
+//     int mini=INT_MAX;
+//     int minimum;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             if(arr[i][j]<mini)
+//             {
+//               mini=arr[i][j];
+//             }
+//         }
+//     }
+//     return mini;
+// }
+// int main()
+// {
+    
+//     int arr[3][3];
+//     int rows=3;
+//     int cols=3;
+//     for(int i=0;i<rows;i++)
+//     {
+//         for(int j=0;j<cols;j++)
+//         {
+//             cin>>arr[i][j];
+//         }
+//     }
+//     cout<<"Maximum number is "<<printmax(arr,rows,cols)<<endl;
+//     cout<<"Minimum number is "<<printmin(arr,rows,cols)<<endl;
+    
+// }
